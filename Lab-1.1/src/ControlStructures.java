@@ -37,7 +37,11 @@ public class ControlStructures
 	{
 		for(int x = 1; x <= 500; x++)
 		{
-			if(x % 3 == 0 && x % 7 == 0)
+			if(x % 3 == 0 && x % 7 == 0 && x % 10 == 0)
+			{
+				System.out.print("fooBarBaz ");
+			}
+			else if(x % 3 == 0 && x % 7 == 0)
 			{
 				System.out.print("fooBar ");
 			}
@@ -48,10 +52,6 @@ public class ControlStructures
 			else if(x % 7 == 0 && x % 10 == 0)
 			{
 				System.out.print("BarBaz ");
-			}
-			else if(x % 3 == 0 && x % 7 == 0 && x % 10 == 0)
-			{
-				System.out.print("fooBarBaz ");
 			}
 			else if (x % 3 == 0)
 			{
